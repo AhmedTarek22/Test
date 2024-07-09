@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="css/signUp.css" />
+    <!-- render all elements normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font awesome library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <article class="container d-flex text-center mt-lg-5 mt-md-4 mt-sm-3">
+      <section
+        class="text bg-primary d-none d-lg-block col-lg-6 px-5 text-white"
+      >
+        <h3 class="fs-2 col-12">Come join us!</h3>
+        <p class="col-12">
+          We are so excited to have you here.If you <br />haven't already,
+          create an account to get <br />
+          access to exclusive offers, rewards, and <br />
+          discounts.
+        </p>
+        <button
+          onclick="window.location.href='login.html'"
+          class="px-4 py-2 bg-primary-dark text-white border-0 rounded-5"
+        >
+          Already have an account? Login.
+        </button>
+      </section>
+
+      <section class="signUp col-12 col-sm-12 col-lg-6 bg-white py-5 px-5">
+        <h2>Sign Up</h2>
+        <br />
+        <form action="index.html">
+          <input
+            type="text"
+            placeholder="Full name"
+            class="col-12 p-3 bg-light-dark border-0 rounded-2"
+            required
+          />
+          <br /><br />
+          <input
+            type="email"
+            placeholder="Email"
+            class="col-12 p-3 bg-light-dark border-0 rounded-2"
+            required
+          />
+          <br /><br />
+          <input
+            type="password"
+            placeholder="Password"
+            class="col-12 p-3 bg-light-dark border-0 rounded-2"
+            required
+          />
+          <br /><br />
+          <input
+            type="password"
+            placeholder="Confirm your password"
+            class="col-12 p-3 bg-light-dark border-0 rounded-2"
+            required
+          />
+          <br /><br />
+          <input
+            type="submit"
+            value="Sign Up"
+            class="col-12 py-3 bg-primary border-0 rounded-2 text-white"
+          />
+        </form>
+        <p class="m-3 fs-5">or sign up with</p>
+        <div class="social">
+          <a href="https:facebook.com"
+            ><i class="fa-brands fa-facebook fs-3 text-primary"></i
+          ></a>
+          <a href="https:google.com" class="m-2"
+            ><i class="fa-brands fa-google-plus fs-3 text-danger"></i
+          ></a>
+          <a href="https:linkedin.com"
+            ><i class="fa-brands fa-linkedin fs-3 text-info"></i
+          ></a>
+        </div>
+        <button
+          onclick="window.location.href='login.html'"
+          class="px-4 py-2 mt-5 d-lg-none bg-primary-dark text-white border-0 rounded-5"
+        >
+          Already have an account? Login.
+        </button>
+      </section>
+    </article>
+  </body>
+</html>

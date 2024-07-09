@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: silver !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+article .text{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-primary-dark {
+  background-color: #2860e2;
+}
+.bg-light-dark{
+  background-color: #eee;
+}
+
+input:focus{
+  outline: none;
+}
+
